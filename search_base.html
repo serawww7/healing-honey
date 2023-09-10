@@ -1,0 +1,56 @@
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+window.onload = function() { startSearch(decodeURI(getUrlVars()["search"])) };document.querySelector('.search_field').addEventListener('keydown', function(e) {
+    if (e.keyCode === 13) { someFunc();}
+  });document.querySelector(".start_search").onclick = function(event) {someFunc();};var fruits = (function(){
+    /* ` 
+
+     ` */
+  }).toString();
+  fruits = (fruits.slice(fruits.indexOf('/* ')+4, fruits.lastIndexOf(' */')).replace(new RegExp("\\r?\\n", "g"), "")).split("},{");
+var found=0;
+function someFunc(){
+document.getElementById('search_insert').innerHTML = "";
+var search_field=document.querySelector('.search_field').value;
+if(search_field!=""){startSearch(search_field);}else{alert("пустое поле"); return;}
+}
+var textarr=[];
+var textarrplus=[];
+var starttext="";function startSearch(text){
+if(text!=""){
+var fruit=[];
+textarrplus=text.toLowerCase().split("++");textL="";
+ if (history.pushState) {
+        var baseUrl = window.location.protocol + "//" + window.location.host + window.location.pathname;
+        var newUrl = baseUrl + '?search='+text;
+        history.pushState(null, null, newUrl);
+    }
+    else {
+        console.warn('History API не поддерживается');
+    };for (var pos in textarrplus) {
+textarr=textarrplus[pos].toLowerCase().split(/\s+/);
+for (var item in fruits) {
+textL=fruits[item].toLowerCase();
+if (textarr.every(v => ~textL.indexOf(v))){
+fruit=fruits[item].split("||");
+document.getElementById('search_insert').insertAdjacentHTML('afterbegin',' <tw class="col-4 simpleCart_shelfItem"><a   href="'+fruit[0]+'.html"><div class = "onclean" ><span class="item_Thumb_"><img src="'+fruit[3]+'"  draggable ="false"/></span></div></a><a   href="'+fruit[0]+'.html"><span class="item_caption">'+fruit[1]+'</span><h6 class="item_name">'+fruit[0]+'</h6> </a><span class="item_text">'+fruit[2]+'</span></tw>' );found=found+1;}}};};if(found==0){alert("ничего не найдено");}
+found=0;
+}; 
+
+ 
+
+
