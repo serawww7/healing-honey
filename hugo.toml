@@ -13,8 +13,8 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 	mainSections = 'posts'
 
 [author]
-	name = 'Anthony Arphan'
-	bio = 'Debitis assumenda esse dignissimos aperiam delectus maxime tenetur repudiandae dolore'
+	name = 'Сергій Поліщук'
+	bio = 'Пасічник з власною життєвою філософією'
 	avatar = '/images/nasa-astronaut-unsplash.jpg'
 	twitter = 'https://twitter.com/insertapps'
 
