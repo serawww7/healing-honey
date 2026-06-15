@@ -32,6 +32,15 @@ name = 'Про автора'
 pageRef = '/about'
 weight = 20
 
+[[menu.main]]
+name = 'Контакти'
+pageRef = '/contact'
+weight = 30
+
+[[menu.main]]
+name = 'Політика'
+pageRef = '/privacy-policy'
+weight = 40
 
 
 [module]
