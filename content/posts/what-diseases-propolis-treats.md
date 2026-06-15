@@ -1,7 +1,7 @@
 ---
 
 title: "Які хвороби лікує прополіс ⚕️"
-date: 2026-36-15T10:00:00+03:00
+date: 2026-06-15T10:00:00+03:00
 slug: "what-diseases-propolis-treats"
 description: "Повний перелік захворювань та станів, при яких прополіс демонструє терапевтичну ефективність, та його основні лікувальні дії."
 image: images/what-diseases-propolis-treats.jpg
