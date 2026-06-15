@@ -2,7 +2,7 @@
 
 title: "Настойка прополісу на спирту"
 date: 2026-06-15T10:00:00+03:00
-slug: "/nastoyka-propolisu-na-spyrtu/"
+slug: "nastoyka-propolisu-na-spyrtu"
 description: "Перевірений рецепт настойки прополісу."
 
 tags:
