@@ -1,6 +1,6 @@
-baseURL = 'https://pehtheme-hugo.netlify.app/'
-languageCode = 'en-us'
-title = 'Pehtheme'
+baseURL = 'https://healing-honey-2026.pages.dev/'
+languageCode = 'uk-UA'
+title = 'Healing Honey'
 theme = 'pehtheme-hugo'
 
 summaryLength = '20' # <- 20 words are approximately 160 characters
@@ -9,7 +9,7 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 
 [params]
 	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
-	description = 'Pehtheme Hugo Lite: A minimalist Hugo theme, built with TailwindCSS, for efficient performance and minimalism.'
+	description = 'Блог пасічника Сергія Поліщука про прополіс, мед, настоянки та практичний досвід бджільництва.'
 	mainSections = 'posts'
 
 [author]
@@ -23,21 +23,24 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 
 [menu] # Menu management
 	[[menu.main]]
-		name = 'Home'
-		pageRef = '/'
-		weight = 10
-	[[menu.main]]
-		name = 'About'
-		pageRef = '/about'
-		weight = 15
-	[[menu.main]]
-		name = 'Tags'
-		pageRef = '/tags'
-		weight = 20
-	[[menu.main]]
-		name = 'Taxonomy'
-		pageRef = '/tags/space/'
-		weight = 25
+name = 'Головна'
+pageRef = '/'
+weight = 10
+
+[[menu.main]]
+name = 'Про автора'
+pageRef = '/about'
+weight = 20
+
+[[menu.main]]
+name = 'Рецепти'
+pageRef = '/tags/recepty/'
+weight = 30
+
+[[menu.main]]
+name = 'Прополіс'
+pageRef = '/tags/propolis/'
+weight = 40
 
 [module]
   [module.hugoVersion]
