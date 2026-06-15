@@ -2,7 +2,7 @@ baseURL = 'https://healing-honey-2026.pages.dev/'
 languageCode = 'uk-UA'
 title = 'Блог пасічника Сергія Поліщука:: Цілющий мед'
 theme = 'pehtheme-hugo'
-
+disableKinds = ["taxonomy", "term"]
 summaryLength = '20' # <- 20 words are approximately 160 characters
 googleAnalytics = 'G-MEASUREMENT_ID' # <- Your GA-4
 disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.com
@@ -16,7 +16,7 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 	name = 'Сергій Поліщук'
 	bio = 'Пасічник з власною життєвою філософією'
 	avatar = '/images/PSV.jpg'
-	twitter = 'https://twitter.com/insertapps'
+	
 
 [pagination]
 	pagerSize = 6 # <- Set the desired number of posts per page 
