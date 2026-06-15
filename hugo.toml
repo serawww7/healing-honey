@@ -1,6 +1,6 @@
 baseURL = 'https://healing-honey-2026.pages.dev/'
 languageCode = 'uk-UA'
-title = 'Healing Honey'
+title = 'Блог пасічника Сергія Поліщука:: Цілющий мед'
 theme = 'pehtheme-hugo'
 
 summaryLength = '20' # <- 20 words are approximately 160 characters
@@ -15,7 +15,7 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 [author]
 	name = 'Сергій Поліщук'
 	bio = 'Пасічник з власною життєвою філософією'
-	avatar = '/images/nasa-astronaut-unsplash.jpg'
+	avatar = '/images/PSV.jpg'
 	twitter = 'https://twitter.com/insertapps'
 
 [pagination]
