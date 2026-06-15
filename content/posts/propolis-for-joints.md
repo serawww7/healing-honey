@@ -4,7 +4,7 @@ title: "Прополіс для суглобів"
 date: 2026-36-15T10:00:00+03:00
 slug: "propolis-for-joints"
 description: "Дізнайтеся, як ефективно використовувати прополіс для полегшення болю та запалення в суглобах."
-
+image: images/propolis-for-joints.jpg
 tags:
 
  - прополіс

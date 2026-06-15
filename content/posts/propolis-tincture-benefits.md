@@ -4,7 +4,7 @@ title: "Настоянка прополісу користь ✨"
 date: 2026-36-15T10:00:00+03:00
 slug: "propolis-tincture-benefits"
 description: "Відкрийте для себе численні переваги настоянки прополісу для здоров'я, її застосування та цілющі властивості."
-
+image: propolis-tincture-benefits.jpg
 tags:
 
  - прополіс
