@@ -1,7 +1,7 @@
 ---
-title: "About"
+title: "Цілющий мед"
 date: 2023-10-06T20:37:29+07:00
-image: images/nadine-shaabana-ZPP-zP8HYG0-unsplash.jpg
+image: images/PSV.jpg
 description: "Сергій Поліщук — пасічник з понад 15-річним досвідом. Екологічне бджільництво, прополіс, мед та практичний досвід роботи з бджолами."
 draft: false
 ---
