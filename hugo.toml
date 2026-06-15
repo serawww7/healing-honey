@@ -32,15 +32,7 @@ name = 'Про автора'
 pageRef = '/about'
 weight = 20
 
-[[menu.main]]
-name = 'Рецепти'
-pageRef = '/tags/recepty/'
-weight = 30
 
-[[menu.main]]
-name = 'Прополіс'
-pageRef = '/tags/propolis/'
-weight = 40
 
 [module]
   [module.hugoVersion]
