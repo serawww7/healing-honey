@@ -5,38 +5,18 @@ image: images/nadine-shaabana-ZPP-zP8HYG0-unsplash.jpg
 draft: false
 ---
 
-**Pehtheme Hugo** is your gateway to the mysteries and wonders of the universe. We are a passionate community of space enthusiasts, scientists, and stargazers dedicated to sharing the awe-inspiring beauty and profound knowledge of the cosmos.
+# Про автора
 
-At **Pehtheme Hugo**, we believe that space exploration is not just a scientific endeavor; it's a human adventure. It's about the curiosity that drives us to look up at the night sky and wonder about the galaxies, stars, and planets that fill our universe.
+Мене звати Сергій Поліщук. Уже понад 15 років я займаюся бджільництвом і продовжую вчитися у своїх бджіл майже щодня.
 
-## Our Mission
+Для мене пасіка — це не бізнес і не спосіб отримати якомога більше меду. Це частина життєвої філософії, яку я намагаюся застосовувати в усіх сферах свого життя: бути чесним, відкритим, відповідальним і діяти так, щоб мої рішення приносили користь не лише мені, а й навколишньому світу.
 
-Our mission is to inspire, educate, and spark curiosity about space and astronomy. We aim to make the wonders of the cosmos accessible to everyone, from seasoned astronomers to those taking their first steps into the world of stargazing.
+Саме тому в роботі з бджолами я завжди орієнтуюся на принцип екологічності. Для мене екологічне бджільництво означає шукати баланс між користю для людини, добробутом бджолиної сім'ї та повагою до природи.
 
-Through a diverse range of articles, videos, images, and interactive tools, we strive to:
+Я не прагну максимальних обсягів виробництва будь-якою ціною. Натомість намагаюся мінімізувати втручання в природні процеси та приділяю особливу увагу якості кожного етапу роботи. Від вибору матеріалів і обладнання до зберігання меду та продуктів бджільництва — усе має значення.
 
-- **Educate**: We provide well-researched, informative content that explains complex astronomical concepts in an accessible way.
+Моя історія в бджільництві почалася випадково. Одного разу я допомагав літньому пасічнику переносити вулики. Після кількох бджолиних ужалень він здивувався моїй спокійній реакції та сказав, що людина з таким ставленням до бджіл повинна мати власну пасіку. Згодом я дізнався, що мій прадід також був пасічником. Так випадкова зустріч перетворилася на справу, яка супроводжує мене вже багато років.
 
-- **Inspire**: We share the breathtaking beauty of the universe through stunning images and stories of space exploration.
+Цей сайт я створив для тих, хто цікавиться прополісом, медом, продуктами бджільництва та натуральними підходами до здоров'я. Тут я ділюся власним досвідом, перевіреними рецептами, спостереженнями та знаннями, які накопичив за роки роботи на пасіці.
 
-- **Connect**: We foster a vibrant community where space enthusiasts can share their passion, ask questions, and learn from each other.
-
-## What You'll Find Here
-
-- **Astronomy Insights**: Dive deep into the universe with articles and guides that cover everything from the basics of stargazing to the latest discoveries in astrophysics.
-
-- **Stunning Visuals**: Explore our gallery of celestial images captured by professional astronomers and space agencies, as well as astrophotography from our community members.
-
-- **Space Exploration Updates**: Stay informed about upcoming space missions, rocket launches, and groundbreaking discoveries in our ever-expanding cosmos.
-
-- **Interactive Tools**: Use our interactive sky maps and tools to plan your stargazing sessions and track celestial events.
-
-## Our Team
-
-We are a dedicated team of space enthusiasts, writers, astronomers, and scientists who are passionate about sharing the wonders of the universe. Our combined expertise in space science, astrophotography, and science communication allows us to bring you the best of the cosmos.
-
-## Join Our Cosmic Community
-
-We invite you to join us on this cosmic journey. Explore the depths of space with us, ask questions, share your own astronomical experiences, and become part of a community that looks to the stars with wonder and curiosity.
-
-Let's embark on this celestial adventure together. Welcome to **My Space Theme**—where the universe unfolds before your eyes.
+Я не претендую на абсолютну істину. Моє завдання значно простіше — чесно розповідати про те, що працює на практиці, і допомагати людям знаходити відповіді на запитання про прополіс, бджільництво та природний спосіб життя.
