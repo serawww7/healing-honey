@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://healing-honey-2026.pages.dev/sitemap.xml
