@@ -49,3 +49,4 @@ weight = 40
   [module.mounts] # Directing the static folder to assets.
   	source = 'assets'
   	target = 'static'
+	disableKinds = ["taxonomy", "term"]
