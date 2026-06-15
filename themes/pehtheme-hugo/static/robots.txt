@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://healing-honey-2026.pages.dev/sitemap.xml
+Sitemap: https://healing-honey.pp.ua/sitemap.xml
