@@ -10,7 +10,7 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 [params]
 	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
 	description = 'Блог пасічника Сергія Поліщука про прополіс, мед, настоянки та практичний досвід бджільництва.'
-	mainSections = 'Публікації'
+	mainSections = 'posts'
 
 [author]
 	name = 'Сергій Поліщук'
