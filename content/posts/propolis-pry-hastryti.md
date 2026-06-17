@@ -1,7 +1,7 @@
 ---
 
 title: "Прополіс при гастриті"
-date: 2025-09-17T10:00:00+03:00
+date: 2026-06-17T10:00:00+03:00
 slug: "propolis-pry-hastryti"
 description: "Корисний засіб для імунітету та шлунково-кишкового тракту."
 image: images/propolis-pry-hastryti.jpg
