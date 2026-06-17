@@ -1,7 +1,7 @@
 ---
 
 title: "Прополіс від печії"
-date: 2026-06-17T10:00:00+03:00
+date: 2025-06-11T10:00:00+03:00
 slug: "propolis-vid-pechii"
 description: "Корисний засіб для імунітету та шлунково-кишкового тракту."
 image: images/propolis-vid-pechii.jpg
