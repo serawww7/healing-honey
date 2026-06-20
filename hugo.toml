@@ -1,6 +1,6 @@
 baseURL = 'https://healing-honey.pp.ua/'
 languageCode = 'uk-UA'
-title = 'Блог пасічника Сергія Поліщука:: Цілющий мед'
+title = 'Цілющий мед | Блог пасічника Сергія Поліщука'
 theme = 'pehtheme-hugo'
 disableKinds = ["taxonomy", "term"]
 summaryLength = '20' # <- 20 words are approximately 160 characters
@@ -50,7 +50,7 @@ weight = 40
   [module.mounts] # Directing the static folder to assets.
   	source = 'assets'
   	target = 'static'
-	disableKinds = ["taxonomy", "term"]
+	
 
 
 
