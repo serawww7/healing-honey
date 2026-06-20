@@ -9,19 +9,15 @@ caption: Повний довідник про прополіс
 draft: false
 ------------
 
-# Прополіс: повний довідник із застосування, користі та рецептів
-
-Прополіс — один із найцінніших продуктів бджільництва. Його використовують уже сотні років для підтримки здоров'я, зміцнення імунітету та догляду за шкірою. На цій сторінці я зібрав усі основні матеріали сайту про прополіс, власний досвід пасічника та перевірені рецепти.
-
 ## Що таке прополіс
 
 Прополіс — це смолиста речовина, яку бджоли збирають із бруньок дерев та використовують для захисту вулика від бактерій, грибків і вірусів.
 
 Детальніше про лікувальні властивості:
 
-* /what-propolis-treats/
-* /what-diseases-propolis-treats/
-* /propolis-treatment/
+* [Що лікує прополіс](/what-propolis-treats/)
+* [Які хвороби лікує прополіс](/what-diseases-propolis-treats/)
+* [Лікування прополісом](/propolis-treatment/)
 
 ## Прополіс для шлунка та травлення
 
@@ -29,15 +25,13 @@ draft: false
 
 Окремі статті:
 
-* /dlia-shlunka/
-* /yak-pyty-vid-shlunka/
-* /propolis-pry-hastryti/
-* /pry-vyraztsi-shlunka/
-* /pry-vyraztsi-shlunka-2026/
-* /vid-khelikobakter/
-* /propolis-vid-pechii/
-
-Прополіс часто використовують при гастритах, печії, подразненні слизової оболонки шлунка та для підтримки травлення.
+* [Прополіс для шлунка](/dlia-shlunka/)
+* [Як пити прополіс від шлунка](/yak-pyty-vid-shlunka/)
+* [Прополіс при гастриті](/propolis-pry-hastryti/)
+* [Прополіс при виразці шлунка](/pry-vyraztsi-shlunka/)
+* [Прополіс при виразці шлунка: додаткові рекомендації](/pry-vyraztsi-shlunka-2026/)
+* [Прополіс проти Helicobacter pylori](/vid-khelikobakter/)
+* [Прополіс від печії](/propolis-vid-pechii/)
 
 ## Настоянка прополісу
 
@@ -45,11 +39,9 @@ draft: false
 
 Читайте:
 
-* /nastoyka-propolisu-na-spyrtu/
-* /propolis-moon/
-* /v-chomu-rozchyniaietsia-propolis/
-
-У цих статтях розглядаються правильні пропорції, способи приготування та застосування настоянки.
+* [Настойка прополісу на спирту](/nastoyka-propolisu-na-spyrtu/)
+* [Настоянка прополісу на самогоні](/propolis-moon/)
+* [У чому розчиняється прополіс](/v-chomu-rozchyniaietsia-propolis/)
 
 ## Молоко з прополісом
 
@@ -57,8 +49,8 @@ draft: false
 
 Корисні матеріали:
 
-* /propolis-milk/
-* /moloko-z-propolisom-vid-kashliu/
+* [Молоко з прополісом](/propolis-milk/)
+* [Молоко з прополісом від кашлю](/moloko-z-propolisom-vid-kashliu/)
 
 ## Мазі та зовнішнє застосування
 
@@ -66,10 +58,10 @@ draft: false
 
 Детальні інструкції:
 
-* /maz-na-osnovi-bdzholynoho-vosku/
-* /voskova-maz-z-propolisom-v-domashnikh-umovakh/
-* /propolisna-oliia/
-* /propolis-oil-benefits-harms/
+* [Мазь на основі бджолиного воску](/maz-na-osnovi-bdzholynoho-vosku/)
+* [Воскова мазь з прополісом](/voskova-maz-z-propolisom-v-domashnikh-umovakh/)
+* [Прополісна олія](/propolisna-oliia/)
+* [Користь та шкода прополісної олії](/propolis-oil-benefits-harms/)
 
 ## Прополіс для суглобів
 
@@ -77,13 +69,13 @@ draft: false
 
 Читайте:
 
-* /propolis-for-joints/
+* [Прополіс для суглобів](/propolis-for-joints/)
 
 ## Прополіс у гінекології
 
 Детальна тематична стаття:
 
-* /propolis-in-gynecology/
+* [Прополіс у гінекології](/propolis-in-gynecology/)
 
 ## Прополіс з медом
 
@@ -91,9 +83,9 @@ draft: false
 
 Корисні матеріали:
 
-* /propolis-honey-preparation/
-* /propolisnyi-med-pryhotuvannia/
-* /krem-med-z-propolisom/
+* [Мед з прополісом: приготування](/propolis-honey-preparation/)
+* [Прополісний мед: рецепт](/propolisnyi-med-pryhotuvannia/)
+* [Крем-мед з прополісом](/krem-med-z-propolisom/)
 
 ## Як правильно підготувати прополіс
 
@@ -101,28 +93,23 @@ draft: false
 
 Читайте:
 
-* /yak-ochystyty-propolis-vid-domishok/
-* /yak-roztopyty-propolis/
-* /yak-roztopyty-propolis-u-domashnikh-umovakh/
+* [Як очистити прополіс від домішок](/yak-ochystyty-propolis-vid-domishok/)
+* [Як розтопити прополіс](/yak-roztopyty-propolis/)
+* [Як розтопити прополіс у домашніх умовах](/yak-roztopyty-propolis-u-domashnikh-umovakh/)
 
 ## Інші продукти бджільництва
 
 На сайті також є матеріали про інші корисні продукти пасіки:
 
-* /bdzholynyi-pidmor/
-* /trutnevyi-homohenat/
-* /zabrus/
-* /yak-pereviryty-med-na-spravzhnist-vdoma/
+* [Бджолиний підмор](/bdzholynyi-pidmor/)
+* [Трутневий гомогенат](/trutnevyi-homohenat/)
+* [Бджолиний забрус](/zabrus/)
+* [Як перевірити мед на справжність](/yak-pereviryty-med-na-spravzhnist-vdoma/)
 
 ## Бабусині рецепти
 
 Народні рецепти, які передавалися поколіннями:
 
-* /babusyni/
-* /folk-propolis-recipes/
+* [Бабусині рецепти з прополісом](/babusyni/)
+* [Народні рецепти з прополісом](/folk-propolis-recipes/)
 
-## Висновок
-
-Прополіс — це унікальний продукт бджільництва, який використовується як у народній практиці, так і активно вивчається сучасною наукою. На цьому сайті я збираю власний досвід пасічника та практичні матеріали про використання прополісу, меду та інших продуктів пасіки.
-
-Зберігайте цю сторінку в закладки — вона буде регулярно доповнюватися новими матеріалами.
