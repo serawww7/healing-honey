@@ -12,6 +12,19 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ .Title }}">
 <meta name="twitter:description" content="{{ .Description }}">
+<meta name="author" content="Сергій Поліщук">
+<meta name="publisher" content="Цілющий мед">
+<meta name="robots" content="index, follow">
+
+
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"Blog",
+ "name":"Блог пасічника Сергія Поліщука",
+ "url":"https://healing-honey.pp.ua"
+}
+</script>
 {{- partialCached "head/css.html" . -}}
 {{- partialCached "head/favicon.html" . -}}
 {{- /* template "_internal/google_analytics.html" . */ -}}
