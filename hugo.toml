@@ -51,3 +51,9 @@ weight = 40
   	source = 'assets'
   	target = 'static'
 	disableKinds = ["taxonomy", "term"]
+
+
+
+
+	[permalinks]
+posts = "/:slug/"
