@@ -9,6 +9,9 @@
 <meta property="og:title" content="{{ .Title }}">
 <meta property="og:description" content="{{ .Description }}">
 <meta property="og:url" content="{{ .Permalink }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ .Description }}">
 {{- partialCached "head/css.html" . -}}
 {{- partialCached "head/favicon.html" . -}}
 {{- /* template "_internal/google_analytics.html" . */ -}}
