@@ -1,0 +1,4 @@
+---
+title: "Пошук"
+layout: "search"
+---
