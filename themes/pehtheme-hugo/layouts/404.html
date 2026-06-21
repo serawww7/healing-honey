@@ -28,7 +28,7 @@
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-        {{ range first 6 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+        {{ range first 6 (shuffle (where site.RegularPages "Type" "in" site.Params.mainSections)) }}
 
             {{ partial "content/card.html" . }}
 
