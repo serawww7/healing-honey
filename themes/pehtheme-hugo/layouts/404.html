@@ -1,16 +1,23 @@
-<!DOCTYPE html>
-<html lang="uk">
-<head>
-<meta charset="utf-8">
-<title>Сторінку не знайдено</title>
-</head>
-<body>
+{{ define "main" }}
 
-<h1>Помилка 404</h1>
+<div class="max-w-3xl mx-auto text-center py-20">
 
-<p>Такої сторінки не існує.</p>
+<h1 class="text-6xl font-bold mb-6">404 🐝</h1>
 
-<p><a href="/">Повернутися на головну</a></p>
+<h2 class="text-3xl font-bold mb-6">
+Схоже, ця бджола полетіла не туди
+</h2>
 
-</body>
-</html>
+<p class="text-lg mb-8">
+Сторінка, яку ви шукаєте, не знайдена.
+Можливо, посилання застаріло або було переміщене.
+</p>
+
+<a href="/"
+class="inline-block px-6 py-3 rounded-xl bg-yellow-400 hover:bg-yellow-500">
+Повернутися на головну
+</a>
+
+</div>
+
+{{ end }}
