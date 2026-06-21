@@ -28,11 +28,17 @@
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 
-        {{ range first 6 (shuffle (where site.RegularPages "Type" "in" site.Params.mainSections)) }}
+       <h2 class="text-3xl font-bold mb-8 text-center">
+Корисні матеріали
+</h2>
 
-            {{ partial "content/card.html" . }}
-
-        {{ end }}
+<ul class="space-y-3">
+<li><a href="/yak-pyty-vid-shlunka/">Як пити прополіс від шлунка</a></li>
+<li><a href="/propolis-pry-hastryti/">Прополіс при гастриті</a></li>
+<li><a href="/nastoyka-propolisu-na-spyrtu/">Настойка прополісу на спирту</a></li>
+<li><a href="/babusyni/">Бабусині рецепти</a></li>
+<li><a href="/yak-pereviryty-med-na-spravzhnist-vdoma/">Як перевірити мед на справжність</a></li>
+</ul>
 
     </div>
 
