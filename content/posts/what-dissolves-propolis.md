@@ -56,7 +56,18 @@ draft: false
 
 
 
--//-
+<h2>ТЕСТ HTML</h2>
+
+<div style="background:red;color:white;padding:20px;">
+Якщо бачиш червоний блок — HTML працює.
+</div>
+
+
+
+
+
+
+
 
 
 
