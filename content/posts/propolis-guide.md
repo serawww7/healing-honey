@@ -113,3 +113,10 @@ draft: false
 * [Бабусині рецепти з прополісом](/babusyni/)
 * [Народні рецепти з прополісом](/folk-propolis-recipes/)
 
+
+<div class="bg-amber-50 border-l-4 border-amber-400 p-4 my-6 rounded-r-lg">
+<p><strong>🐝 Порада пасічника</strong></p>
+<p>
+За 15 років роботи на пасіці я помітив, що...
+</p>
+</div>
