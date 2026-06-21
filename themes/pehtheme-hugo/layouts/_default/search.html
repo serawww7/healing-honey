@@ -1,8 +1,22 @@
-<div id="search-bar" class="block mt-3 close">
-    <form action="/search/" method="get">
-        <input
-            name="q"
-            class="w-full block px-6 py-2 rounded-full border border-zinc-200"
-            placeholder="Пошук по сайту...">
-    </form>
+{{ define "main" }}
+
+<div class="max-w-5xl mx-auto py-12">
+
+    <h1 class="text-4xl font-bold mb-8">
+        🔍 Пошук по сайту
+    </h1>
+
+    <input
+        id="search-input"
+        type="text"
+        placeholder="Введіть запит..."
+        class="w-full border rounded-xl p-4 mb-8">
+
+    <div id="search-results"></div>
+
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="/js/search.js"></script>
+
+{{ end }}
