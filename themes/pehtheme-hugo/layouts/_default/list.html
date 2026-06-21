@@ -20,15 +20,42 @@
 
     <!-- Paginate here -->
 
-    <div class="flex items-center mt-10">
-      {{- if .Paginator.HasPrev -}}
-        <a class="border rounded-full px-6 py-2 hover:bg-zinc-200 mr-auto" href="{{ .Paginator.Prev.URL }}">← Previous</a>
-      {{- end -}}
+    <div class="flex flex-wrap justify-center gap-2 mt-10">
 
-      {{- if .Paginator.HasNext -}}
-        <a class="border rounded-full px-6 py-2 hover:bg-zinc-200" href="{{ .Paginator.Next.URL }}">Next →</a>
-      {{- end -}}
-    </div>
+  {{ if .Paginator.HasPrev }}
+    <a class="border rounded-full px-4 py-2 hover:bg-zinc-200"
+       href="{{ .Paginator.Prev.URL }}">
+       ←
+    </a>
+  {{ end }}
+
+  {{ range .Paginator.Pagers }}
+
+    {{ if eq . $.Paginator }}
+
+      <span class="border rounded-full px-4 py-2 bg-blue-600 text-white">
+        {{ .PageNumber }}
+      </span>
+
+    {{ else }}
+
+      <a class="border rounded-full px-4 py-2 hover:bg-zinc-200"
+         href="{{ .URL }}">
+         {{ .PageNumber }}
+      </a>
+
+    {{ end }}
+
+  {{ end }}
+
+  {{ if .Paginator.HasNext }}
+    <a class="border rounded-full px-4 py-2 hover:bg-zinc-200"
+       href="{{ .Paginator.Next.URL }}">
+       →
+    </a>
+  {{ end }}
+
+</div>
   
   </section>
 
