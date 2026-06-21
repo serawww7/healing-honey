@@ -20,47 +20,42 @@
 
     <!-- Paginate here -->
 
-    {{ $paginator := .Paginator }}
-    
-    {{ if gt $paginator.TotalPages 1 }}
-    <div class="flex items-center justify-center gap-2 mt-12 text-sm font-medium">
-      
-      {{ if $paginator.HasPrev }}
-        <a class="border rounded-lg px-3 py-2 hover:bg-zinc-200" href="{{ $paginator.Prev.URL }}">← Назад</a>
-      {{ else }}
-        <span class="border rounded-lg px-3 py-2 text-zinc-400 cursor-not-allowed">← Назад</span>
-      {{ end }}
+    <div class="flex flex-wrap justify-center gap-2 mt-10">
 
-      {{ range $paginator.Pagers }}
-        {{ $.Scratch.Set "page_number_to_show" false }}
-        
-        {{ if or (le .PageNumber 1) (ge .PageNumber $paginator.TotalPages) }}
-          {{ $.Scratch.Set "page_number_to_show" true }}
-        {{ else if and (ge .PageNumber (sub $paginator.PageNumber 2)) (le .PageNumber (add $paginator.PageNumber 2)) }}
-          {{ $.Scratch.Set "page_number_to_show" true }}
-        {{ end }}
+  {{ if .Paginator.HasPrev }}
+    <a class="border rounded-full px-4 py-2 hover:bg-zinc-200"
+       href="{{ .Paginator.Prev.URL }}">
+       ←
+    </a>
+  {{ end }}
 
-        {{ if $.Scratch.Get "page_number_to_show" }}
-          {{ if eq . $paginator }}
-            <span class="bg-zinc-800 text-white border border-zinc-800 rounded-lg px-4 py-2">{{ .PageNumber }}</span>
-          {{ else }}
-            <a class="border rounded-lg px-4 py-2 hover:bg-zinc-200" href="{{ .URL }}">{{ .PageNumber }}</a>
-          {{ end }}
-        {{ else }}
-          {{ if or (eq .PageNumber (sub $paginator.PageNumber 3)) (eq .PageNumber (add $paginator.PageNumber 3)) }}
-            <span class="text-zinc-400 px-1">...</span>
-          {{ end }}
-        {{ end }}
-      {{ end }}
+  {{ range .Paginator.Pagers }}
 
-      {{ if $paginator.HasNext }}
-        <a class="border rounded-lg px-3 py-2 hover:bg-zinc-200" href="{{ $paginator.Next.URL }}">Вперед →</a>
-      {{ else }}
-        <span class="border rounded-lg px-3 py-2 text-zinc-400 cursor-not-allowed">Вперед →</span>
-      {{ end }}
+    {{ if eq . $.Paginator }}
 
-    </div>
+      <span class="border rounded-full px-4 py-2 bg-blue-600 text-white">
+        {{ .PageNumber }}
+      </span>
+
+    {{ else }}
+
+      <a class="border rounded-full px-4 py-2 hover:bg-zinc-200"
+         href="{{ .URL }}">
+         {{ .PageNumber }}
+      </a>
+
     {{ end }}
+
+  {{ end }}
+
+  {{ if .Paginator.HasNext }}
+    <a class="border rounded-full px-4 py-2 hover:bg-zinc-200"
+       href="{{ .Paginator.Next.URL }}">
+       →
+    </a>
+  {{ end }}
+
+</div>
   
   </section>
 
