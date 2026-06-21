@@ -13,39 +13,48 @@ fetch('/index.json')
     });
 
     const input = document.getElementById('search-input');
+    // Отримуємо параметр ?q=
+const params = new URLSearchParams(window.location.search);
+const searchQuery = params.get('q');
+
+if (searchQuery) {
+    input.value = searchQuery;
+}
     const results = document.getElementById('search-results');
+function performSearch() {
 
-    input.addEventListener('input', function() {
+    const query = input.value.trim();
 
-        const query = input.value.trim();
+    if (query.length < 2) {
+        results.innerHTML = '';
+        return;
+    }
 
-        if (query.length < 2) {
-            results.innerHTML = '';
-            return;
-        }
+    const matches = fuse.search(query);
 
-        const matches = fuse.search(query);
+    if(matches.length === 0){
+        results.innerHTML =
+        '<p class="text-zinc-500">Нічого не знайдено.</p>';
+        return;
+    }
 
-        if(matches.length === 0){
-            results.innerHTML =
-            '<p class="text-zinc-500">Нічого не знайдено.</p>';
-            return;
-        }
+    results.innerHTML = matches.map(item => `
 
-        results.innerHTML = matches.map(item => `
+        <div class="border rounded-2xl p-5 mb-4 hover:bg-zinc-50">
 
-            <div class="border rounded-2xl p-5 mb-4 hover:bg-zinc-50">
+            <a href="${item.item.permalink}"
+               class="text-xl font-bold text-blue-600 hover:underline">
 
-                <a href="${item.item.permalink}"
-                   class="text-xl font-bold text-blue-600 hover:underline">
+                ${item.item.title}
 
-                    ${item.item.title}
+            </a>
 
-                </a>
+        </div>
 
-            </div>
-
-        `).join('');
-    });
-
+    `).join('');
+}
+    input.addEventListener('input', performSearch);
+if (searchQuery) {
+    performSearch();
+}
 });
