@@ -1,22 +1,40 @@
 {{ define "main" }}
 
-<div class="max-w-3xl mx-auto text-center py-20">
+<div class="max-w-4xl mx-auto text-center py-20">
 
-<h1 class="text-6xl font-bold mb-6">404 🐝</h1>
+    <h1 class="text-6xl font-bold mb-6">404 🐝</h1>
 
-<h2 class="text-3xl font-bold mb-6">
-Схоже, ця бджола полетіла не туди
-</h2>
+    <h2 class="text-3xl font-bold mb-6">
+        Схоже, ця бджола полетіла не туди
+    </h2>
 
-<p class="text-lg mb-8">
-Сторінка, яку ви шукаєте, не знайдена.
-Можливо, посилання застаріло або було переміщене.
-</p>
+    <p class="text-lg mb-8">
+        Сторінка, яку ви шукаєте, не знайдена.
+        Можливо, посилання застаріло або було переміщене.
+    </p>
 
-<a href="/"
-class="inline-block px-6 py-3 rounded-xl bg-yellow-400 hover:bg-yellow-500">
-Повернутися на головну
-</a>
+    <a href="/"
+       class="inline-block px-6 py-3 rounded-xl bg-yellow-400 hover:bg-yellow-500 font-semibold">
+        🍯 Повернутися на головну
+    </a>
+
+</div>
+
+<div class="max-w-6xl mx-auto pb-20">
+
+    <h2 class="text-3xl font-bold mb-8 text-center">
+        Останні дописи
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+        {{ range first 6 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+
+            {{ partial "content/card.html" . }}
+
+        {{ end }}
+
+    </div>
 
 </div>
 
