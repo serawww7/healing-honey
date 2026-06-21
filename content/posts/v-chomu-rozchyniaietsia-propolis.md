@@ -4,7 +4,7 @@ title: "В чому розчиняється прополіс: повний гі
 date: 2025-06-22T10:00:00+03:00
 slug: "v-chomu-rozchyniaietsia-propolis"
 description: "Хімічні та домашні секрети пасічника: в чому і як правильно розчиняти прополіс. Розчинність у спирті, воді, оліях та молоці. Поради, як відмити прополіс з посуду."
-image: images/v-chomu-rozchyniaietsia-propolissss.jpg
+image: images/v-chomu-rozchyniaietsia-propolis.jpg
 tags:
 
  - прополіс
