@@ -40,6 +40,7 @@ draft: false
 Температура: При приготуванні прополісних розчинів важливо контролювати температуру. Надмірний нагрів (вище 80°C) може зруйнувати деякі цінні термочутливі компоненти прополісу.
 Вибір розчинника залежить від цілей використання прополісу та бажаної форми препарату.
 
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@coach.sergiy/video/7111050350408273158" data-video-id="7111050350408273158" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@coach.sergiy" href="https://www.tiktok.com/@coach.sergiy?refer=embed">@coach.sergiy</a> <a title="україна🇺🇦" target="_blank" href="https://www.tiktok.com/tag/%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0%F0%9F%87%BA%F0%9F%87%A6?refer=embed">#україна🇺🇦</a> <a target="_blank" title="♬ Come Around - Papa Roach" href="https://www.tiktok.com/music/Come-Around-6625690908165670918?refer=embed">♬ Come Around - Papa Roach</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
 
 
 
@@ -55,11 +56,6 @@ draft: false
 
 
 
-<h2>ТЕСТ HTML</h2>
-
-<div style="background:red;color:white;padding:20px;">
-Якщо бачиш червоний блок — HTML працює.
-</div>
 
 
 
@@ -68,3 +64,7 @@ draft: false
 
 
 
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2yIXQR0NJRg?si=ziCNOAnIJ8EIdgA9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
