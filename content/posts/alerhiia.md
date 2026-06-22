@@ -19,7 +19,7 @@ draft: false
 Так, алергія на бджолину отруту дійсно існує. Для невеликої частини людей вона може бути небезпечною. Але для більшості здорових людей укус бджоли закінчується лише тимчасовим болем, почервонінням та невеликим набряком.
 
 Давайте розберемося, коли варто хвилюватися, а коли — ні.
-[\[text\](https://www.facebook.com/share/r/1CtQU4oSd2/)](https://www.facebook.com/share/r/1CtQU4oSd2/)
+<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F667162379103116%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 ## Чи кожен набряк після укусу є алергією?
 
 Ні.
