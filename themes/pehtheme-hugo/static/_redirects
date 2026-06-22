@@ -1,1 +1,3 @@
 /posts/* /:splat 301
+/uk/recipes/*   /:splat   301
+/uk/*           /:splat   301
