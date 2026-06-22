@@ -1,5 +1,6 @@
 baseURL = 'https://healing-honey.pp.ua/'
 languageCode = 'uk-UA'
+defaultContentLanguage = "uk"
 title = 'Цілющий мед | Блог пасічника Сергія Поліщука'
 theme = 'pehtheme-hugo'
 disableKinds = ["taxonomy", "term"]
