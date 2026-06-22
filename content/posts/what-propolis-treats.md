@@ -22,7 +22,7 @@ draft: false
 Бронхіт, трахеїт: Сприяє виведенню мокротиння, зменшує кашель та запалення. Приймають настоянку всередину, роблять інгаляції.
 Синусит, риніт: Допомагає очистити носові пазухи, зняти набряк. Застосовують промивання носа розведеною настоянкою або прополісні краплі.
 Захворювання шлунково-кишкового тракту:
-
+<iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F655318507030093%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 Гастрит, виразка шлунка та дванадцятипалої кишки: Сприяє загоєнню слизових оболонок, зменшує запалення, знищує бактерію Helicobacter pylori. Приймають настоянку прополісу розведену у воді або молоці.
 Коліт, ентероколіт, дисбактеріоз: Нормалізує мікрофлору кишечника, знімає запалення.
 Захворювання шкіри та слизових оболонок:
